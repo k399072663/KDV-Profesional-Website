@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact Me</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="StyleSheet" type="text/css" href="ContactMeForm.css">
+</head>
+
+<body>
+<nav>
+  <a href="index.html">Homepage</a>
+</nav> 
+
+<header>
+
+  <h1>Contact Me</h1>
+
+</header>
+
+<form action="mailto:kenny.dinh-vu@ucdenver.edu" method="post" id="ContactMe" name="ContactMeForm">
+
+<fieldset style="width: 0;">
+<legend>Contact Information</legend>
+  <div>
+  <label for="Fn">First Name:</label>
+  <input type="text" id="Fn" name="FirstName" size="25" placeholder="First" required  >
+  </div>
+
+  <div>
+  <label for="Ln">Last Name:  </label>
+  <input type="text" id="Ln" name="LastName" size="25" placeholder="Last" required>
+  </div>
+
+  <div>
+    <label for="Email">Email:</label>
+    <input type="email" id="Email" name="EmailAddress" size="25" placeholder="Email@Address.com" required>
+  </div>
+
+<div>
+  <input type="radio" id="male" name="gender">
+  <label for="male">Male</label>
+  
+  <input type="radio" id="female" name="gender">
+  <label for="female">Female</label>
+
+  <input type="radio" id="N/A" name="gender">
+  <label for="N/A">Prefer not to say</label>
+</div>
+
+<div class="">
+  <label for="Title"></label>
+  <select id="Title" name="Title" >
+    <option>Student</option>
+    <option>Faculty</option>
+    <option>Affiliate</option>
+    <option>Other</option>
+    <option selected="selected">N/A</option>
+  </select>
+</div>
+
+<label for="Contact">Reason for Contacting:</label><br />
+<textarea name="suggest" id="Contact" rows="5" cols="60"></textarea> 
+
+  <div>
+  <input type="submit"> </label>
+  <input type="reset"> </label>
+  </div>
+
+</fieldset>
+
+</form>
+
+<footer>
+  &copy;2022 Kenny Dinh-Vu
+</footer>
+
+</body>
+</html>

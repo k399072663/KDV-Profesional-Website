@@ -1,0 +1,23 @@
+h2{background-color:lightblue;
+color:#233952;}
+h1,h2{font-family:"Tahoma"}
+h3{font-family:"Arial"}
+header{text-align:Center;}
+.date{text-align: right;}
+footer,section{border-top:8px solid darkgrey;}
+
+
+nav { 
+    padding: 0 0 15px 0; 
+    margin:0; 
+  }
+
+nav a, title{
+    text-decoration: none;
+    color: #233952;
+    font-size: 24px;
+}
+
+a:hover,title{
+  color:purple;
+}

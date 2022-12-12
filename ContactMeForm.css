@@ -1,0 +1,48 @@
+html{
+    background-image:url(Background.jpg);     
+    background-repeat: no-repeat; 
+    background-size:cover;
+}
+
+h1{
+    text-align: center;
+    color:#233952;
+    
+}
+
+footer{text-align:center;}
+
+nav a, title{
+    text-decoration: none;
+    color: #233952;
+    font-size: 24px;
+}
+
+a:hover,title{
+    color:purple;
+}
+
+legend{
+    background-color: gray;
+    padding: 5px 10px;
+    color: white;
+}
+
+fieldset{ 
+    margin: auto;
+    padding: 20px;
+    color: #233952;
+    background-color: lightblue;
+    font-family:"Tahoma";
+}
+
+div{
+    padding:5px
+}
+
+select,input,textarea{
+    font-family:"Tahoma";
+    background-color: lightgray;
+    cursor: pointer;
+}
+

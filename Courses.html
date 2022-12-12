@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Courses</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="StyleSheet" type="text/css" href="CourseTable.css">
+  <script async src="FavoriteClasses.js"> </script>
+</head>
+
+<body>
+  
+<div id="layout">
+  
+  <nav>
+    <a href="index.html">Homepage</a>
+  </nav> <!-- end of nav -->
+
+  <header>
+    <h1>Courses</h1>
+  </header>
+
+
+  <main>
+  
+      <table >
+
+        <thead>
+          <tr>
+            <th colspan="4">Courses Taken</th>
+          </tr>
+       </thead>
+
+        <tbody>
+
+          <tr>
+            <th>Course ID</th>
+            <th>Name</th>
+            <th>Term</th>
+            <th>Skills Retained</th>
+          </tr>
+
+          <tr id="Course1">
+            <td>
+              <input id="1" type="image" src="Python.png" 
+              alt=PythonLogo
+              width="60" 
+              height="50"></button>
+              CSCI 1410
+            </td>
+      <td>Fundamental of Computing</td>
+      <td>Fall 2020</td>
+      <td>Python</td>
+    </tr>
+
+    <tr id="Course2">
+      <td>
+       <input id="2" type="image" src="x86Assembly.png" 
+        alt=x86Logo 
+        width="60" 
+        height="50">
+        CSCI 2525
+      </td>
+      <td>Assembly Language</td>
+      <td>Spring 2020</td>
+      <td>x86 Assembly Language</td>
+    </tr>
+
+    <tr id="Course3">
+      <td>
+       <input id="3" type="image" src="Tableau.jpg"
+        alt=TableauLogo 
+        width="60" 
+        height="50">
+        ISMG 2050
+      </td>
+      <td>Intro Business Problem Solving</td>
+      <td>Fall 2021</td>
+      <td>
+        <ul>
+          <li>Excel</li>
+          <li>Tableau</li>
+        </ul> 
+      </td>
+    </tr>
+
+    <tr id="Course4">
+      
+      <td>
+       <input id="4" type="image" src="HTMLCSSJS.png" 
+        alt=HTMLCSSJSLogo 
+        width="60" 
+        height="50">
+        ISMG 2800
+      </td>
+      <td>Designing for the Web</td>
+      <td>Fall 2022</td>
+      <td>
+        <ul>
+          <li>HTML 5</li>
+          <li>CSS 3</li>
+          <li>Java Script</li>
+        </ul> 
+      </td>
+    </tr>
+
+  </tbody>
+
+</table>
+
+<br>
+
+</main>
+
+
+<aside>
+    <h1>
+      Favorite Course
+    </h1>
+    <div class="FavCourse">
+      <table id="FavCourseTable">
+      </table>
+      <p class="numberOfCourses">
+        Number of Selected Courses: <span id="counter">0</span>
+      </p>
+    </div>
+
+
+
+</aside>
+
+
+
+<footer>
+  &copy;2022 Kenny Dinh-Vu
+</footer>
+</div>
+</body>
+
+</html>

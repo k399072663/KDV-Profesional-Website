@@ -1,0 +1,95 @@
+header{
+    text-align:center;
+    color:#233952;
+}
+
+footer{text-align:center;}
+
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+aside { 
+    grid-area: aside;
+    text-align: center;
+}
+
+aside h1, p{
+    background-color:#233952;
+    border: 5px solid gray;
+    color: aliceblue;
+    text-align: center;
+}
+
+#layout {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-areas:
+    "nav nav"  
+    "header header" 
+    "main aside" 
+    "footer footer";
+}
+
+html{
+    background-image:url(Background.jpg);     
+    background-repeat: no-repeat; 
+    background-size:cover;
+}
+
+ul{
+    margin-left:0;
+    padding-left:0;
+}
+
+nav a, title{
+    text-decoration: none;
+    color: #233952;
+    font-size: 24px;
+}
+
+a:hover,title{
+    color:purple;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+thead{
+    background-color: gray;
+}
+
+table th{
+    background-color:#233952;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+table, tr, td{
+    border: 5px solid gray;
+    padding: 10px 20px;
+    width: 40%;
+ }
+
+ table, th, td{
+ font-family:"Tahoma";
+ }
+
+ table tr:nth-child(odd) td{
+    background-color: lightblue;
+}
+
+table tr:nth-child(even) td{
+    background-color: lightgray;
+}
+
+
